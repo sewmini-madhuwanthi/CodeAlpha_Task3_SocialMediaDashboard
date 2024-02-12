@@ -3,8 +3,9 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(247, 246, 252);
-    color: rgb(70, 71, 81);
+    color: rgb(8, 8, 8);
     font-family: 'Open Sans', sans-serif;
+    background-image: url(image/images.jpg);
   }
   
   .material-icons-outlined {
@@ -14,39 +15,39 @@ body {
   }
   
   .text-secondary {
-    color: rgb(70, 71, 81);
+    color: rgb(13, 13, 14);
   }
   
   .text-blue {
-    color: rgb(29, 38, 154);
+    color: rgb(199, 23, 199);
   }
   
   .background-blue {
-    background-color: rgb(29, 38, 154);
+    background-color: rgb(199, 23, 199);
   }
   
   .text-red {
-    color: rgb(213, 0, 0);
+    color: rgb(51, 6, 212);
   }
   
   .background-red {
-    background-color: rgb(213, 0, 0);
+    background-color: rgb(51, 6, 212);
   }
   
   .text-green {
-    color: rgb(46, 125, 50);
+    color: rgb(28, 144, 173);
   }
   
   .background-green {
-    background-color: rgb(46, 125, 50);
+    background-color: rgb(28, 144, 173);
   }
   
   .text-orange {
-    color: rgb(255, 111, 0);
+    color: rgb(5, 125, 194);
   }
   
   .background-orange {
-    background-color: rgb(255, 111, 0);
+    background-color: rgb(5, 125, 194);
   }
   
   .grid-container {
@@ -68,7 +69,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 30px 0 30px;
-    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 7px -4px rgba(85, 81, 81, 0.2);
   }
   
   .menu-icon {
@@ -80,8 +81,8 @@ body {
   #sidebar {
     grid-area: sidebar;
     height: 100%;
-    background-color: rgb(29, 38, 154);
-    color: rgb(255, 255, 255);
+    background-color: rgb(50, 50, 53);
+    color: rgb(185, 180, 180);
     overflow-y: auto;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
@@ -121,7 +122,7 @@ body {
   }
   
   .sidebar-list-item:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(247, 240, 240, 0.2);
     cursor: pointer;
   }
   
@@ -160,25 +161,30 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(12, 12, 12);
     border-radius: 30px;
-    box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 7px -4px rgba(148, 142, 142, 0.2);
   }
   
   .card:first-child {
     background-color: rgb(213, 0, 0);
+    background-image: url(image/L.jpg);
+
   }
   
   .card:nth-child(2) {
     background-color: rgb(46, 125, 50);
+    background-image: url(image/k.jpg);
   }
   
   .card:nth-child(3) {
     background-color: rgb(255, 111, 0);
+    background-image: url(image/im.jpg);
   }
   
   .card:nth-child(4) {
     background-color: rgb(29, 38, 154);
+    background-image: url(image/m.jpg);
   }
   
   .card-inner {
@@ -199,7 +205,7 @@ body {
   
   .product-card {
     height: 350px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(131, 130, 123);
     padding: 25px;
     border-radius: 30px;
     box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2);
@@ -210,7 +216,7 @@ body {
   }
   
   .product-button {
-    background-color: rgb(29, 38, 154);
+    background-color: rgb(58, 58, 61);
     color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 30px;
